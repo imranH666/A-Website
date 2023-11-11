@@ -1,0 +1,286 @@
+@media (max-width: 575.98px){    /* For small potrait */
+    .nav-main ul {
+        flex-direction: column;
+        display: inline-block;
+        background-color: #9bd6e083;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        backdrop-filter: blur(20px);
+        position: absolute;
+        top: 60px;
+        left: 0;
+        visibility: hidden;
+    }   
+    .nav-main ul li a {
+        padding: 15px;
+    }
+
+    .menu_bar {
+        display: block;
+        cursor: pointer;
+        font-size: 20px;
+        color: black;
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        z-index: 9999;
+    }
+
+    .visible_menu_box {
+        visibility: visible !important;
+    }
+
+    #nav {
+        padding: 50px 0 100px 0;
+    }
+
+    .banner-text {
+        margin-top: 50px;
+    }
+    .banner-text h1 {
+        font-size: 35px;
+    }
+    .banner-text h2 {
+        font-size: 20px;
+    }
+    .banner-text p {
+        font-size: 15px;
+        padding: 0 10px;
+    }
+    .banner-btn {
+        margin-top: 50px;
+    }
+    .banner-btn a {
+        border: 1px solid #fff;
+        padding: 10px 10px;
+        margin: 4px;
+        width: 130px;
+    }
+    .banner-btn a:hover {
+        border: 1px solid transparent;
+    }
+
+    #about {
+        padding: 40px 0;
+    }
+    .about-main {
+        margin-top: 80px;
+        flex-wrap: wrap;
+    }
+    .about-img {
+        width: 100%;
+    }
+    .about-text {
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .about-text h4 {
+        font-size: 25px;
+    }
+    .a-s-text {
+        flex-wrap: wrap;
+    }
+    .a-s-text p{
+        width: 100%;
+    }
+    .a-hover1, .a-hover2, .a-hover3, .a-hover4, .a-hover5, .a-hover6, .a-hover7, .a-hover8, .a-hover9, .a-hover10, .a-hover11, .a-hover12, .a-hover13, .a-hover14, .a-hover15, .a-hover16 {
+        display: none;
+    }
+
+    #ser {
+        padding: 40px 0;
+    }
+    .circle {
+        width: 200px;
+        height: 200px;
+    }
+    .c-1, .c-2, .c-3, .c-4, .c-5, .c-6, .c-7 {
+        display: none;
+    }
+    .circle h4 {
+        margin-top: 80px;
+        font-size: 25px;
+    }
+
+    #port {
+        padding: 40px 0;
+    }
+    .port-main {
+        margin-top: 70px;
+    }
+    .port-items {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    #team {
+        padding: 40px 0;
+    }
+    .team-main {
+        margin-top: 70px;
+        flex-wrap: wrap;
+    }
+    .team-items {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    footer {
+        padding: 40px 0;
+    }
+    .footer-main {
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+    .f-one {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .f-two {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .f-img {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .f-icon {
+        margin-left: 10px;
+    }
+    .con {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .copy p {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){    /* For small landscape */
+    .nav-main ul {
+        flex-direction: column;
+        display: inline-block;
+        background-color: #9bd6e083;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        backdrop-filter: blur(20px);
+        position: absolute;
+        top: 60px;
+        left: 0;
+        visibility: hidden;
+    }   
+    .nav-main ul li a {
+        padding: 15px;
+    }
+
+    .menu_bar {
+        display: block;
+        cursor: pointer;
+        font-size: 20px;
+        color: black;
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        z-index: 9999;
+    }
+
+    .visible_menu_box {
+        visibility: visible !important;
+    }
+
+    .banner-text p {
+        font-size: 20px;
+        padding: 0 50px;
+    }
+    .banner-btn a {
+        border: 1px solid #fff;
+        padding: 10px 10px;
+        margin: 4px;
+        width: 150px;
+    }
+
+    .a-hover1, .a-hover2, .a-hover3, .a-hover4, .a-hover5, .a-hover6, .a-hover7, .a-hover8, .a-hover9, .a-hover10, .a-hover11, .a-hover12, .a-hover13, .a-hover14, .a-hover15, .a-hover16 {
+        display: none;
+    }
+    .a-s-text {
+        flex-wrap: wrap;
+    }
+    .a-s-text p{
+        width: 100%;
+    }
+
+    #port {
+        padding: 80px 0 0 0;
+    }
+    .port-items {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+
+    #team {
+        padding: 50px 0;
+    }
+    .team-main {
+        margin-top: 70px;
+        flex-wrap: wrap;
+    }
+    .team-items {
+        width: calc(50% - 10px);
+        margin: 10px 0;
+    }
+
+    .footer-main {
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+    .f-one {
+        width: calc(50% - 10px);
+        margin: 10px 0;
+    }
+    .f-two {
+        width: calc(50% - 10px);
+        margin: 10px 0;
+    }
+    .f-img {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){    /* For mediam tablet */
+    .banner-text p {
+        padding: 0 50px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px){
+}
+
+@media (min-width: 1400px){ 
+}
